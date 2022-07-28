@@ -108,7 +108,6 @@ def main():
                     st.error("Oops! Looks like this algorithm does't work.\
                               We'll need to fix it!")
 
-
         if sys == 'Collaborative Based Filtering':
             if st.button("Recommend"):
                 try:
@@ -121,7 +120,6 @@ def main():
                 except:
                     st.error("Oops! Looks like this algorithm does't work.\
                               We'll need to fix it!")
-
 
     # -------------------------------------------------------------------
 
@@ -189,17 +187,17 @@ def main():
         title_about = """
 	    <div style="background-color:#464e5f00;padding:10px;border-radius:10px;margin:10px;">
 	    <h1 style="color:black;text-align:center;">  The Team </h1>
-        <h3 style="color:black;text-align:right;">We are Team CBB3 from Explore Data Science Academy. This is our  movie recommender project for 2022 July unsupervised sprint.</h3>
+        <h3 style="color:black;text-align:right;">We are Team CBB3 from Explore Data Science Academy(BIOSKOP HANDLERS). This is our  movie recommender project for 2022 July unsupervised sprint.</h3>
         """
         mission = """
 	    <div style="background-color:#464e5f00;padding:10px;border-radius:10px;margin:10px;">
 	    <h1 style="color:black;text-align:center;">  Our Objective  </h1>
-        <h3 style="color:black;text-align:center;">To keep you entertained by providing the best suited movies you are most probably will enjoy after you have watched one or people have watched a movie similar to the one you rated/watched. &#128515</h3>
+        <h3 style="color:black;text-align:center;">To ensure great movie experience, by giving you the client 90-99% match to what you like in movie selection. </h3>
         """
 
         contributors = """
         <div style="background-color:#464e5f00;padding:10px;border-radius:10px;margin:10px;">
-	    <h1 style="color:black;text-align:center;">  Members </h1>
+	    <h1 style="color:black;text-align:center;">  Meet The Team </h1>
         <h3 style="color:black;text-align:center;">Sinoluthando Bokaba</h3>
         <h3 style="color:black;text-align:center;">Wezo Ntsokota</h3>
         <h3 style="color:black;text-align:center;">Nthapeleng Linah Raphela</h3>
